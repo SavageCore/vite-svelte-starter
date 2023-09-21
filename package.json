@@ -13,7 +13,8 @@
     "test:watch": "vitest",
     "lint": "eslint -c .eslintrc --ext .svelte,.ts src",
     "format": "eslint -c .eslintrc --fix --ext .svelte,.ts --fix src",
-    "format:prettier": "prettier --write src/**/{*.svelte,*.ts}"
+    "format:prettier": "prettier --write src/**/{*.svelte,*.ts}",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@picocss/pico": "^1.5.10",
@@ -26,6 +27,7 @@
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-svelte": "^2.33.2",
+    "husky": "^8.0.3",
     "jsdom": "^22.1.0",
     "prettier": "^3.0.3",
     "prettier-plugin-svelte": "^3.0.3",
