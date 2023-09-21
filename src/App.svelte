@@ -1,8 +1,8 @@
 <script lang="ts">
-  import svelteLogo from "./assets/svelte.svg";
-  import viteLogo from "/vite.svg";
-  import Counter from "./lib/Counter.svelte";
-  import { _, isLoading } from "svelte-i18n";
+  import svelteLogo from './assets/svelte.svg';
+  import viteLogo from '/vite.svg';
+  import Counter from './lib/Counter.svelte';
+  import { _, isLoading } from 'svelte-i18n';
 </script>
 
 {#if $isLoading}
@@ -15,13 +15,13 @@
   <main class="container">
     <div>
       <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-        <img src={viteLogo} class="logo" alt="Vite Logo" />
+        <img src="{viteLogo}" class="logo" alt="Vite Logo" />
       </a>
       <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-        <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
+        <img src="{svelteLogo}" class="logo svelte" alt="Svelte Logo" />
       </a>
     </div>
-    <h1>{$_("title")}</h1>
+    <h1>{$_('title')}</h1>
 
     <div class="card">
       <Counter />
