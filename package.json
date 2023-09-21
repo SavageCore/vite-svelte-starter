@@ -10,7 +10,10 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "test": "vitest run",
     "test:ui": "vitest --ui",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "lint": "eslint -c .eslintrc --ext .svelte,.ts src",
+    "format": "eslint -c .eslintrc --fix --ext .svelte,.ts --fix src",
+    "format:prettier": "prettier --write src/**/{*.svelte,*.ts}"
   },
   "devDependencies": {
     "@picocss/pico": "^1.5.10",
@@ -18,8 +21,14 @@
     "@testing-library/jest-dom": "^6.1.3",
     "@testing-library/svelte": "^4.0.3",
     "@tsconfig/svelte": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@vitest/ui": "^0.34.5",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-svelte": "^2.33.2",
     "jsdom": "^22.1.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-svelte": "^3.0.3",
     "svelte": "^4.0.5",
     "svelte-check": "^3.4.6",
     "svelte-i18n": "^3.7.4",
