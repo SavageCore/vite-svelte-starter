@@ -1,5 +1,5 @@
 {
-  "name": "vite-svelte-ts-prettier-eslint-vitest",
+  "name": "vite-svelte-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",

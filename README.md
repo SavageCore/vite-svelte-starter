@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/SavageCore/vite-svelte-ts-prettier-eslint-vitest/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/SavageCore/vite-svelte-ts-prettier-eslint-vitest/release.yml" alt="build status"></a>
-  <a href="https://app.codecov.io/gh/SavageCore/vite-svelte-ts-prettier-eslint-vitest"><img src="https://img.shields.io/codecov/c/github/SavageCore/vite-svelte-ts-prettier-eslint-vitest" alt="Coverage"></a>
+  <a href="https://github.com/SavageCore/vite-svelte-starter/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/SavageCore/vite-svelte-starter/release.yml" alt="build status"></a>
+  <a href="https://app.codecov.io/gh/SavageCore/vite-svelte-starter"><img src="https://img.shields.io/codecov/c/github/SavageCore/vite-svelte-starter" alt="Coverage"></a>
 </p>
 
 <h1 align="center">Svelte + Pico.css + TypeScript + Vite</h1>
@@ -24,7 +24,7 @@ This template is based on the official [Vite + Svelte template](https://github.c
 ## Getting started
 
 ```bash
-npx tiged "SavageCore/vite-svelte-ts-prettier-eslint-vitest" my-app
+npx tiged "SavageCore/vite-svelte-starter" my-app
 cd my-app
 npm install
 npm run dev
