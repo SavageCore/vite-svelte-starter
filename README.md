@@ -1,10 +1,14 @@
+<p align="center">
+  <a href="https://github.com/SavageCore/vite-svelte-ts-prettier-eslint-vitest/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/SavageCore/vite-svelte-ts-prettier-eslint-vitest/release.yml" alt="build status"></a>
+  <a href="https://app.codecov.io/gh/SavageCore/vite-svelte-ts-prettier-eslint-vitest"><img src="https://img.shields.io/codecov/c/github/SavageCore/vite-svelte-ts-prettier-eslint-vitest" alt="Coverage"></a>
+</p>
 
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/SavageCore/vite-svelte-ts-prettier-eslint-vitest/release.yml?style=for-the-badge) ![Codecov](https://img.shields.io/codecov/c/github/SavageCore/vite-svelte-ts-prettier-eslint-vitest?style=for-the-badge)
-# Svelte + TS + Vite
+<h1 align="center">Svelte + Pico.css + TypeScript + Vite</h1>
+<h2 align="center">svelte-i18n + Prettier + ESLint + Vitest + Husky</h2>
 
 This template is based on the official [Vite + Svelte template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-svelte-ts).
 
-## Feature added
+## Packages added to the template
 
 * [ESLint](https://eslint.org/)
 * [Prettier](https://prettier.io/)
