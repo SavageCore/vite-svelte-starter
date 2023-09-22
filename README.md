@@ -1,3 +1,5 @@
+
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/SavageCore/vite-svelte-ts-prettier-eslint-vitest/release.yml?style=for-the-badge) ![Codecov](https://img.shields.io/codecov/c/github/SavageCore/vite-svelte-ts-prettier-eslint-vitest?style=for-the-badge)
 # Svelte + TS + Vite
 
 This template is based on the official [Vite + Svelte template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-svelte-ts).
