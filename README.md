@@ -26,6 +26,10 @@ npm install
 npm run dev
 ```
 
+## Coverage
+
+[Codecov](https://codecov.io/) is used to track coverage. To enable coverage tracking, you need to add your `CODECOV_TOKEN` as a repository secret. Selecting `setup repo` on your [Codecov dashboard](https://app.codecov.io/) should guide you through it. See the [docs](https://docs.codecov.com/docs#step-2-get-the-repository-upload-token) for more.
+
 ## Publishing
 
 This template is configured to publish to GitHub Pages. To publish your app push a new tag (starting with v) to the repo. This will trigger a GitHub Action that will build and publish your app to GitHub Pages.
