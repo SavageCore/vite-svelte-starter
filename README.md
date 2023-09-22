@@ -25,3 +25,17 @@ cd my-app
 npm install
 npm run dev
 ```
+
+## Publishing
+
+This template is configured to publish to GitHub Pages. To publish your app push a new tag (starting with v) to the repo. This will trigger a GitHub Action that will build and publish your app to GitHub Pages.
+
+1. On the Settings page of your repo, under Pages, select the gh-pages branch as the source for your GitHub Pages site.
+
+2. Set the correct `base` in `vite.config.ts`.
+
+    If you are deploying to `https://<USERNAME>.github.io/`, you can omit base as it defaults to '/'.
+
+    If you are deploying to `https://<USERNAME>.github.io/<REPO>/`, for example your repository is at `https://github.com/<USERNAME>/<REPO>`, then set base to `'/<REPO>/'`.
+
+See [Vite Docs](https://vitejs.dev/guide/static-deploy.html#github-pages) for more information.
