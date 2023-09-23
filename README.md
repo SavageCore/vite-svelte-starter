@@ -30,7 +30,9 @@ This template is based on the official [Vite + Svelte template](https://github.c
 npx tiged "SavageCore/vite-svelte-starter" my-app
 cd my-app
 npm install
-npm run dev
+npm run dev # local access
+npm run dev:remote # lan access
+```
 ```
 
 ## Coverage
