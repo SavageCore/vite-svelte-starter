@@ -16,6 +16,9 @@ This template is based on the official [Vite + Svelte template](https://github.c
 * [Vitest](https://vitest.dev/)
 * [Pico.css](https://picocss.com/)
 * [svelte-i18n](https://github.com/kaisermann/svelte-i18n)
+* [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess)
+* [prettier-plugin-css-order](https://github.com/Siilwyn/prettier-plugin-css-order)
+* [sass](https://sass-lang.com/)
 
 ## Recommended IDE Setup
 
