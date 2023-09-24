@@ -35,7 +35,6 @@ npm install
 npm run dev # local access
 npm run dev:remote # lan access
 ```
-```
 
 ## Coverage
 
