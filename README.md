@@ -19,6 +19,7 @@ This template is based on the official [Vite + Svelte template](https://github.c
 * [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess)
 * [prettier-plugin-css-order](https://github.com/Siilwyn/prettier-plugin-css-order)
 * [sass](https://sass-lang.com/)
+* [vite-plugin-pwa](https://vite-pwa-org.netlify.app/)
 
 ## Recommended IDE Setup
 
