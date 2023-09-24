@@ -27,3 +27,6 @@ dist-ssr
 
 # Coverage directory used by tools like istanbul
 coverage
+
+public/*
+!public/vite.svg
