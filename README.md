@@ -21,6 +21,7 @@ This template is based on the official [Vite + Svelte template](https://github.c
 * [sass](https://sass-lang.com/)
 * [vite-plugin-pwa](https://vite-pwa-org.netlify.app/)
 * [autoprefixer](https://github.com/postcss/autoprefixer)
+* [vite-plugin-mkcert](https://www.npmjs.com/package/vite-plugin-mkcert)
 
 ## Recommended IDE Setup
 
@@ -35,6 +36,8 @@ npm install
 npm run dev # local access
 npm run dev:remote # lan access
 ```
+
+Note: On first run, you may be prompted for sudo access to install `vite-plugin-mkcert` certificates.
 
 ## Coverage
 
