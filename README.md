@@ -10,18 +10,18 @@ This template is based on the official [Vite + Svelte template](https://github.c
 
 ## Packages added to the template
 
-* [ESLint](https://eslint.org/)
-* [Prettier](https://prettier.io/)
-* [Husky](https://github.com/typicode/husky)
-* [Vitest](https://vitest.dev/)
-* [Pico.css](https://picocss.com/)
-* [svelte-i18n](https://github.com/kaisermann/svelte-i18n)
-* [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess)
-* [prettier-plugin-css-order](https://github.com/Siilwyn/prettier-plugin-css-order)
-* [sass](https://sass-lang.com/)
-* [vite-plugin-pwa](https://vite-pwa-org.netlify.app/)
-* [autoprefixer](https://github.com/postcss/autoprefixer)
-* [vite-plugin-mkcert](https://www.npmjs.com/package/vite-plugin-mkcert)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
+- [Vitest](https://vitest.dev/)
+- [Pico.css](https://picocss.com/)
+- [svelte-i18n](https://github.com/kaisermann/svelte-i18n)
+- [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess)
+- [prettier-plugin-css-order](https://github.com/Siilwyn/prettier-plugin-css-order)
+- [sass](https://sass-lang.com/)
+- [vite-plugin-pwa](https://vite-pwa-org.netlify.app/)
+- [autoprefixer](https://github.com/postcss/autoprefixer)
+- [vite-plugin-mkcert](https://www.npmjs.com/package/vite-plugin-mkcert)
 
 ## Recommended IDE Setup
 
@@ -30,11 +30,11 @@ This template is based on the official [Vite + Svelte template](https://github.c
 ## Getting started
 
 ```bash
-npx tiged "SavageCore/vite-svelte-starter" my-app
+pnpm dlx tiged "SavageCore/vite-svelte-starter" my-app
 cd my-app
-npm install
-npm run dev # local access
-npm run dev:remote # lan access
+pnpm install
+pnpm dev # local access
+pnpm dev:remote # lan access
 ```
 
 Note: On first run, you may be prompted for sudo access to install `vite-plugin-mkcert` certificates.
@@ -51,8 +51,8 @@ This template is configured to publish to GitHub Pages. To publish your app push
 
 2. Set the correct `base` in `vite.config.ts`.
 
-    If you are deploying to `https://<USERNAME>.github.io/`, you can omit base as it defaults to '/'.
+   If you are deploying to `https://<USERNAME>.github.io/`, you can omit base as it defaults to '/'.
 
-    If you are deploying to `https://<USERNAME>.github.io/<REPO>/`, for example your repository is at `https://github.com/<USERNAME>/<REPO>`, then set base to `'/<REPO>/'`.
+   If you are deploying to `https://<USERNAME>.github.io/<REPO>/`, for example your repository is at `https://github.com/<USERNAME>/<REPO>`, then set base to `'/<REPO>/'`.
 
 See [Vite Docs](https://vitejs.dev/guide/static-deploy.html#github-pages) for more information.
