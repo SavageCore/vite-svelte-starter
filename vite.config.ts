@@ -2,13 +2,17 @@ import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 import mkcert from 'vite-plugin-mkcert';
+import tailwindcss from '@tailwindcss/vite';
+import { svelteTesting } from '@testing-library/svelte/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  server: { https: true },
+  server: {},
   plugins: [
     svelte(),
     mkcert(),
+    tailwindcss(),
+    svelteTesting(),
     VitePWA({
       registerType: 'prompt',
       devOptions: {
@@ -46,5 +50,9 @@ export default defineConfig({
       },
     }),
   ],
+  test: {
+    environment: 'jsdom',
+    setupFiles: ['./vitest-setup.js'],
+  },
   base: '/vite-svelte-starter/',
 });

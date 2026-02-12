@@ -1,3 +1,6 @@
 {
-  "title": "Vite + Svelte"
+  "app": {
+    "title": "Svelte + TailwindCSS + TypeScript + Vite",
+    "description": "A Svelte + TailwindCSS + TypeScript + Vite starter template"
+  }
 }

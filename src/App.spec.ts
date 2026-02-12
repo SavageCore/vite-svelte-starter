@@ -6,17 +6,20 @@ import App from './App.svelte';
 
 test('shows proper heading when rendered', () => {
   render(App);
-  const heading = screen.getByText('Vite + Svelte');
-  expect(heading).toBeInTheDocument();
+
+  // Expect h1 to have text content 'Svelte + TailwindCSS + TypeScript + Vite'
+  expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
+    'Svelte + TailwindCSS + TypeScript + Vite',
+  );
 });
 
 test('changes button text on click', async () => {
   render(App);
   const button = screen.getByRole('button');
 
-  expect(button).toHaveTextContent('count is 0');
+  expect(button).toHaveTextContent('Count is 0');
 
   await fireEvent.click(button);
 
-  expect(button).toHaveTextContent('count is 1');
+  expect(button).toHaveTextContent('Count is 1');
 });

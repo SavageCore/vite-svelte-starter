@@ -1,45 +1,102 @@
-<script lang="ts">
-  import svelteLogo from './assets/svelte.svg';
-  import viteLogo from '/vite.svg';
-  import Counter from './lib/Counter.svelte';
+<script>
   import { _, isLoading } from 'svelte-i18n';
+  import svelteLogo from './assets/svelte.svg';
+  import viteLogo from './assets/vite.svg';
+  import heroImg from './assets/hero.png';
+  import Counter from './lib/Counter.svelte';
 </script>
 
 {#if $isLoading}
-  <main class="container">
-    <div>
-      <p>Please wait...</p>
-    </div>
-  </main>
+  <p>Loading...</p>
 {:else}
-  <main class="container">
+  <section id="center">
+    <div class="hero">
+      <img src={heroImg} class="base" width="170" height="179" alt="" />
+      <img src={svelteLogo} class="framework" alt="Svelte logo" />
+      <img src={viteLogo} class="vite" alt="Vite logo" />
+    </div>
     <div>
-      <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-        <img src="{viteLogo}" class="logo" alt="Vite Logo" />
-      </a>
-      <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-        <img src="{svelteLogo}" class="logo svelte" alt="Svelte Logo" />
-      </a>
+      <h1>{$_('app.title')}</h1>
+      <p>{$_('app.description')}</p>
     </div>
-    <h1>{$_('title')}</h1>
+    <Counter />
+  </section>
 
-    <div class="card">
-      <Counter />
+  <div class="ticks"></div>
+
+  <section id="next-steps">
+    <div id="docs">
+      <svg class="icon" role="presentation" aria-hidden="true">
+        <use href="/vite-svelte-starter/icons.svg#documentation-icon"></use>
+      </svg>
+      <h2>Documentation</h2>
+      <p>Your questions, answered</p>
+      <ul>
+        <li>
+          <a href="https://vite.dev/" target="_blank" rel="noreferrer">
+            <img class="logo" src={viteLogo} alt="" />
+            Explore Vite
+          </a>
+        </li>
+        <li>
+          <a href="https://svelte.dev/" target="_blank" rel="noreferrer">
+            <img class="button-icon" src={svelteLogo} alt="" />
+            Learn more
+          </a>
+        </li>
+      </ul>
     </div>
+    <div id="social">
+      <svg class="icon" role="presentation" aria-hidden="true">
+        <use href="/vite-svelte-starter/icons.svg#social-icon"></use>
+      </svg>
+      <h2>Connect with us</h2>
+      <p>Join the Vite community</p>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/vitejs/vite"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg class="button-icon" role="presentation" aria-hidden="true">
+              <use href="/vite-svelte-starter/icons.svg#github-icon"></use>
+            </svg>
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://chat.vite.dev/" target="_blank" rel="noreferrer">
+            <svg class="button-icon" role="presentation" aria-hidden="true">
+              <use href="/vite-svelte-starter/icons.svg#discord-icon"></use>
+            </svg>
+            Discord
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/vite_js" target="_blank" rel="noreferrer">
+            <svg class="button-icon" role="presentation" aria-hidden="true">
+              <use href="/vite-svelte-starter/icons.svg#x-icon"></use>
+            </svg>
+            X.com
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://bsky.app/profile/vite.dev"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg class="button-icon" role="presentation" aria-hidden="true">
+              <use href="/vite-svelte-starter/icons.svg#bluesky-icon"></use>
+            </svg>
+            Bluesky
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-    <p>
-      Check out <a
-        href="https://github.com/sveltejs/kit#readme"
-        target="_blank"
-        rel="noreferrer">SvelteKit</a
-      >, the official Svelte app framework powered by Vite!
-    </p>
-
-    <p class="read-the-docs">
-      Click on the Vite and Svelte logos to learn more
-    </p>
-  </main>
+  <div class="ticks"></div>
+  <section id="spacer"></section>
 {/if}
-
-<style src="./style.scss">
-</style>
