@@ -3,18 +3,17 @@
   <a href="https://app.codecov.io/gh/SavageCore/vite-svelte-starter"><img src="https://img.shields.io/codecov/c/github/SavageCore/vite-svelte-starter" alt="Coverage"></a>
 </p>
 
-<h1 align="center">Svelte + Pico.css + TypeScript + Vite</h1>
-<h2 align="center">svelte-i18n + Prettier + ESLint + Vitest + Husky</h2>
+<h1 align="center">Svelte + TailwindCSS + TypeScript + Vite</h1>
+<h2 align="center">svelte-i18n + Prettier + Vitest + Husky</h2>
 
 This template is based on the official [Vite + Svelte template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-svelte-ts).
 
 ## Packages added to the template
 
-- [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
 - [Vitest](https://vitest.dev/)
-- [Pico.css](https://picocss.com/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [svelte-i18n](https://github.com/kaisermann/svelte-i18n)
 - [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess)
 - [prettier-plugin-css-order](https://github.com/Siilwyn/prettier-plugin-css-order)
