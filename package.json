@@ -38,7 +38,7 @@
     "prettier-plugin-css-order": "^2.2.0",
     "prettier-plugin-svelte": "^3.5.1",
     "sass": "^1.99.0",
-    "svelte": "^5.55.4",
+    "svelte": "^5.55.7",
     "svelte-check": "^4.4.6",
     "svelte-i18n": "^4.0.1",
     "svelte-preprocess": "^6.0.3",
